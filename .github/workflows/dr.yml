@@ -11,6 +11,6 @@ jobs:
       - name: 'Checkout repository'
         uses: actions/checkout@v4
       - name: 'Dependency Review'
-        uses: jhutchings1/dependency-review-action@develop
+        uses: jhutchings1/dependency-review-action@scorecard
         with:
           fail-on-severity: moderate
